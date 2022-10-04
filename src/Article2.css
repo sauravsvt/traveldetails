@@ -1,0 +1,67 @@
+.article2 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    text-align: center;
+    margin: 5vw 0 1vw 0;
+}
+
+/* Two Line */
+
+.line{
+    margin: 0 0 5vw 0;
+}
+
+.line1{
+    margin: auto;
+    width: 6vw;
+    height: 5px;
+    background: rgba(3, 71, 82, 0.8);
+}
+
+.line2{
+    margin: auto;
+    width: 18vw;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Two Line */
+
+/* Things to do */
+
+.container{
+    position: relative;
+}
+
+.container img{
+    width: 15vw;
+    height: auto;
+}
+
+.container p{
+    position: absolute;
+    bottom: 0.4vw;
+    margin: 0;
+    height: 3vw;
+    width: 15vw;
+    background: rgba(51, 51, 51, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-left: 1vw;
+    box-sizing: border-box; 
+}
+
+.ttd{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 4%;
+}

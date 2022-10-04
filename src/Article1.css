@@ -1,0 +1,64 @@
+
+.article1{
+    margin: 0 4%;
+}
+
+.article1 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    text-align: center;
+    margin: 5vw 0 1vw 0;
+}
+
+
+/* Two Line */
+
+.line{
+    margin: 0 0 5vw 0;
+}
+
+.line1{
+    margin: auto;
+    width: 6vw;
+    height: 5px;
+    background: rgba(3, 71, 82, 0.8);
+}
+
+.line2{
+    margin: auto;
+    width: 18vw;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Two Line */
+
+.trip-img{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    overflow-y: none;
+    overflow-x: scroll;
+    gap: 10vw;
+}
+
+.trip-img img{
+    border-radius: 10px;
+    width: 18vw;
+    height: 25vw;
+}
+
+.slide-img{
+    width: 20vw;
+}
+
+.slide-img p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    text-align: center;
+    margin: 0;
+}
