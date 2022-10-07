@@ -34,17 +34,19 @@ nav {
 
   nav a {
     float: left;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 12%;
+    font-weight: 500;
+    
   
    
   }
   
   nav a:hover {
-    background-color: #000;
+    background-color: rgb(241, 250, 246);
     font-size: large;
-    font-style: italic;
+  
   }
   
   .active {

@@ -7,6 +7,9 @@ import Building from './Pages/Building';
 function App() {
   return (
    <>
+   <div className='app'>
+
+  
    
 
    
@@ -31,7 +34,7 @@ function App() {
          </Routes>
     </Router>
 
-
+    </div>
    </>
   )
 }
