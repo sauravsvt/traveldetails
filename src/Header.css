@@ -23,11 +23,11 @@ header ul{
     place-items: center;
 }
 nav {
-    width: 100%;
+    width: 91vw;
     background-color: rgb(77, 148, 148);
     overflow: auto;
     text-align: center;
-
+    margin: 0 4%;
    
   }
   
@@ -131,11 +131,11 @@ header div .register{
 .body{
     background-image: url("./background.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+    background-size: 100vw;
     display: grid;
     grid-template-rows: 1fr 54vw;
     grid-template-areas: "1" "2";   
+    margin: 0 4%;
 }
 
 
