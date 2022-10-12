@@ -4,6 +4,7 @@ import Home from './Home';
 import './Header.css'
 import logo from "./logo.png"
 import Building from './Pages/Building';
+import Footer from './Footer'
 function App() {
   return (
    <>
@@ -14,17 +15,17 @@ function App() {
 
    
     <Router>
-    <nav>
-   
-    <img src={logo} alt="" />
-    <ul>
-    <li><Link to="/">Home</Link></li>
-    <li><Link to="/blogs">Blogs</Link></li>
-    <li><Link to="/tripcategories">Trips Categories</Link></li>
-    <li><Link to="/about">About Us</Link></li>
-    <li><Link to="/careers">Careers</Link></li>
-    </ul>
-    </nav>
+      <nav>
+        <img src={logo} alt="" />
+
+        <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/blogs">Blogs</Link></li>
+        <li><Link to="/tripcategories">Trips Categories</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/careers">Careers</Link></li>
+        </ul>
+      </nav>
     
    
          <Routes>
@@ -32,6 +33,7 @@ function App() {
          <Route  path='*' element={< Building />}></Route>
         
          </Routes>
+    
     </Router>
 
     </div>
