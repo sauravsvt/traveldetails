@@ -1,6 +1,162 @@
 .footer-box{
-    width: 100vw;
-    height: 100vw;
+    display: grid;
+    grid-template-rows: 25vw 43vw;
+    height: 26vw;
+    margin: 1rem;
+}
+
+.footer1{
+    display: grid;
+    grid-template-columns: 50% auto;
     background: rgba(26, 56, 88, 0.9);
-    display: none;
+    gap: 6vw;
+}
+
+.footer_left{
+    display: grid;
+    grid-template-columns: 60% auto;
+    padding: 2vw 0 2vw 0vw;
+    gap: 2vw;
+    margin: 0 0 0 8vw;
+}
+
+.footer_left .left img{
+    width: 18vw;
+    height: auto;
+    position: relative;
+    right: 1.5vw;
+}
+
+/* logo bottom p */
+
+.footer_left .left p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 1.2vw;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+/* Company */
+.footer_left .right p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    margin: 3vw 0 1vw 0;
+    
+}
+
+/* Company list */
+.footer_left .right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.footer_left .right ul li .link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 1vw;
+    color: #FFFFFF;
+    margin-left: 1vw;
+    padding: 0; 
+    display: block;
+}
+
+/* Footer right side */
+.footer_right{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2vw 0;
+    margin: 3vw 0;
+}
+
+.contact_title{
+    margin: 0 0 1.5vw 0;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.footer_list{
+    display: flex;
+    gap: 1vw;
+}
+
+.contacts_icon{
+    width: 1.5vw;
+    height: auto;
+}
+
+.footer_right_title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+}
+
+.contacts_p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+
+.payment_icons{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.payment_icon{
+    width: 2vw;
+    height: auto;
+    margin: 0.5vw 0 0 1vw;
+}
+
+.follow{
+    margin: 5vw 0 0 0;
+}
+
+.follow_icons{
+    display: flex;
+    gap: 0.8vw;
+    margin: 0.5vw 0 0 1vw;
+}
+
+.follow_icon{
+    width: 2vw;
+    height: auto;
+}
+
+
+
+
+
+.footer2{
+    background: #1A3858;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 0.5vw;
+    gap: 0.5vw;
+}
+
+.copyright{
+    width: 1.3vw;
+    height: auto;
+}
+
+.footer2 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #FFFFFF;
 }

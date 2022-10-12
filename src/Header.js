@@ -1,5 +1,5 @@
 import logo from "./logo.png"
-import background from  "./background.png"
+import background from  "./background.jpg"
 import "./Header.css"
 
 function Header() {
