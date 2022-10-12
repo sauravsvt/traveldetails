@@ -4,7 +4,8 @@ import Home from './Home';
 import './Header.css'
 import logo from "./logo.png"
 import Building from './Pages/Building';
-import Footer from './Footer'
+import Careers from './Pages/Careers'
+import Footer from './Footer.js'
 function App() {
   return (
    <>
@@ -31,9 +32,11 @@ function App() {
          <Routes>
          <Route  path='/' element={< Home />}></Route>
          <Route  path='*' element={< Building />}></Route>
+         <Route  path='/careers' element={< Careers />}></Route>
         
          </Routes>
-    
+
+      <Footer />
     </Router>
 
     </div>

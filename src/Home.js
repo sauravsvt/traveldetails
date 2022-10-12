@@ -16,7 +16,6 @@ function Home() {
   <Article/>
   <Article1/>
   <Article2/>
-  <Footer/>
  
   </>
  )
