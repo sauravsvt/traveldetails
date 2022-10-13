@@ -10,6 +10,7 @@
     grid-template-columns: 50% auto;
     background: rgba(26, 56, 88, 0.9);
     gap: 6vw;
+    margin-top: 1rem;
 }
 
 .footer_left{
