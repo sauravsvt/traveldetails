@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .footer-box{
     display: grid;
     grid-template-rows: 25vw 43vw;
@@ -113,6 +117,7 @@
 .payment_icons{
     display: flex;
     gap: 0.5vw;
+    align-items: center;
 }
 
 .payment_icon{
@@ -160,4 +165,117 @@
     font-weight: 400;
     font-size: 1vw;
     color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 600px){
+    .footer1{
+        display: inline-block;
+        background: rgba(26, 56, 88, 0.9);
+        gap: 0;
+        margin-top: 0.5rem;
+    }
+
+    .footer_left{
+        grid-template-columns: 50% 40%;
+        padding: 4vw 0;
+        margin-bottom: 0;
+    }
+
+    .footer_left .left img{
+        width: 30vw;
+        height: auto;
+    }
+
+    .footer_left .left p{
+        font-size: 2.5vw;
+    }
+
+    .footer_left .right p{
+        font-size: 3vw;
+    }
+
+    
+    /* Company list */
+    .footer_left .right ul{
+        gap: 1.8vw;
+    }
+
+    .footer_left .right ul li .link{
+        font-size: 2.3vw;
+        margin-left: 2vw;
+    }
+
+    .footer_right{
+        grid-template-columns: 56% 40%;
+        padding: 1vw 4vw;
+        margin: 0 0 2vw 0;
+    }
+
+    .footer_contact{
+        gap: 1.8vw;
+        margin-left: 2vw;
+    }
+
+    .footer_list{
+        gap: 2.2vw;
+    }
+
+    .contacts_icon{
+        width: 4vw;
+    }
+
+    .footer_right_title{
+        font-size: 3vw;
+    }
+
+    .contacts_p{
+        font-size: 2.3vw;
+    }
+
+    .left1{
+        margin-left: 4vw;
+    }
+
+    
+    .payment_icons{
+        display: flex;
+        gap: 1.7vw;
+    }
+    
+    .payment_icon{
+        width: 8vw;
+        height: auto;
+        margin: 0.5vw 0 0 1vw;
+    }
+    
+    .follow{
+        margin: 5vw 0 0 0;
+    }
+    
+    .follow_icons{
+        gap: 2vw;
+        margin: 1.7vw 0 0 2.2vw;
+    }
+    
+    .follow_icon{
+        width: 6vw;
+        height: auto;
+    }
+
+
+
+    
+    .footer2{
+        height: 6vw;
+    }
+    
+    .copyright{
+        width: 3.3vw;
+        height: auto;
+    }
+
+    .footer2 p{
+        font-size: 3vw;
+    }
 }
