@@ -66,8 +66,8 @@ function Careers(){
     return(
         <>
             <div className='form-box'>
-                <h1>CV Submission</h1>
-                <p>Do you want to work with us? Please fill in your details below</p>
+                <h1>Drop your CV</h1>
+                <p>Do you want to work with us? Please fill in your details below, we will get back to you</p>
                 <br/>
                 <br/>
                 <hr/>

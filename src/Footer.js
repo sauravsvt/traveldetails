@@ -9,20 +9,20 @@ function Footer(){
             <div className="footer1">
                     <div className="footer_left">
                         <div className="left">
-                            <img src={logo} />
-                            <p>Lörem ipsum fyvis drevkultur, adås. Antigys stenoheten.  
-                                Makroren trira kåbolig derar plus plakys. Heming posaning tills antilogi monode disäk. 
-                                Bektig zombiebrand hemilogi. Moskap pregen. 
+                            <img src={logo} alt='logo' />
+                            <p>TravelDetails.org is a platform where we are providing every minor detail about their
+journey in Nepal where customers can expect a comfortable, safe and enriching experience,
+excitement, cultural exposure, authentic Nepali foods and many more. 
                             </p>
                         </div>
 
                         <div className="right">
                             <p>Company</p>
                             <ul>
-                                <li><Link className="link" to="">About Us</Link></li>
-                                <li><Link className="link" to="">Carrer</Link></li>
-                                <li><Link className="link" to="">Support</Link></li>
-                                <li><Link className="link" to="">Testimonials</Link></li>
+                                <li><Link className="link" to="/about">About Us</Link></li>
+                                <li><Link className="link" to="/careers">Carrers</Link></li>
+                                {/* <li><Link className="link" to="">Support</Link></li>
+                                <li><Link className="link" to="">Testimonials</Link></li> */}
                                 <li><Link className="link" to="">Privacy Policies</Link></li>
                                 <li><Link className="link" to="">Terms of Service</Link></li>
                                 <li><Link className="link" to="">FAQ</Link></li>
@@ -40,7 +40,7 @@ function Footer(){
                                         <path d="M14.5 2C11.1848 2 8.00537 3.26428 5.66117 5.51472C3.31696 7.76516 2 10.8174 2 14C2 16.838 2.62812 18.695 4.34375 20.75L14.5 32L24.6562 20.75C26.3719 18.695 27 16.838 27 14C27 10.8174 25.683 7.76516 23.3388 5.51472C20.9946 3.26428 17.8152 2 14.5 2V2Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
 
-                                    <p className="contacts_p">...</p>
+                                    <p className="contacts_p">Chhireshwornath, Dhanausha, Nepal</p>
                                 </div>
 
                                 <div className="footer_list">
@@ -48,7 +48,7 @@ function Footer(){
                                         <path d="M19.1337 13.3663C19.0177 13.2501 18.8799 13.1579 18.7283 13.095C18.5767 13.0321 18.4141 12.9998 18.2499 12.9998C18.0858 12.9998 17.9232 13.0321 17.7716 13.095C17.6199 13.1579 17.4822 13.2501 17.3662 13.3663L15.3737 15.3588C14.4499 15.0838 12.7262 14.4588 11.6337 13.3663C10.5412 12.2738 9.91618 10.55 9.64118 9.62626L11.6337 7.63376C11.7499 7.51777 11.842 7.38002 11.9049 7.22837C11.9678 7.07673 12.0002 6.91417 12.0002 6.75001C12.0002 6.58584 11.9678 6.42328 11.9049 6.27164C11.842 6.12 11.7499 5.98224 11.6337 5.86626L6.63368 0.866257C6.51769 0.750075 6.37994 0.657903 6.2283 0.595014C6.07665 0.532126 5.9141 0.499756 5.74993 0.499756C5.58576 0.499756 5.42321 0.532126 5.27156 0.595014C5.11992 0.657903 4.98216 0.750075 4.86618 0.866257L1.47618 4.25626C1.00118 4.73126 0.733679 5.38376 0.743679 6.05001C0.772429 7.83001 1.24368 14.0125 6.11618 18.885C10.9887 23.7575 17.1712 24.2275 18.9524 24.2575H18.9874C19.6474 24.2575 20.2712 23.9975 20.7437 23.525L24.1337 20.135C24.2499 20.019 24.342 19.8813 24.4049 19.7296C24.4678 19.578 24.5002 19.4154 24.5002 19.2513C24.5002 19.0871 24.4678 18.9245 24.4049 18.7729C24.342 18.6212 24.2499 18.4835 24.1337 18.3675L19.1337 13.3663ZM18.9749 21.7563C17.4149 21.73 12.0774 21.3113 7.88368 17.1163C3.67618 12.9088 3.26868 7.55251 3.24368 6.02376L5.74993 3.51751L8.98243 6.75001L7.36618 8.36626C7.21926 8.51307 7.11123 8.69418 7.05187 8.89322C6.99251 9.09226 6.98368 9.30295 7.02618 9.50626C7.05618 9.65001 7.78993 13.0588 9.86493 15.1338C11.9399 17.2088 15.3487 17.9425 15.4924 17.9725C15.6956 18.0162 15.9065 18.0081 16.1057 17.9489C16.305 17.8897 16.4861 17.7813 16.6324 17.6338L18.2499 16.0175L21.4824 19.25L18.9749 21.7563Z" fill="white"/>
                                     </svg>
 
-                                    <p className="contacts_p">....</p>
+                                    <p className="contacts_p">+977-9844187965</p>
                                 </div>
 
                                 <div className="footer_list">
@@ -56,7 +56,7 @@ function Footer(){
                                         <path d="M23.75 5H6.25C5.25544 5 4.30161 5.39509 3.59835 6.09835C2.89509 6.80161 2.5 7.75544 2.5 8.75V21.25C2.5 22.2446 2.89509 23.1984 3.59835 23.9017C4.30161 24.6049 5.25544 25 6.25 25H23.75C24.7446 25 25.6984 24.6049 26.4017 23.9017C27.1049 23.1984 27.5 22.2446 27.5 21.25V8.75C27.5 7.75544 27.1049 6.80161 26.4017 6.09835C25.6984 5.39509 24.7446 5 23.75 5ZM22.9125 7.5L15 13.4375L7.0875 7.5H22.9125ZM23.75 22.5H6.25C5.91848 22.5 5.60054 22.3683 5.36612 22.1339C5.1317 21.8995 5 21.5815 5 21.25V9.0625L14.25 16C14.4664 16.1623 14.7295 16.25 15 16.25C15.2705 16.25 15.5336 16.1623 15.75 16L25 9.0625V21.25C25 21.5815 24.8683 21.8995 24.6339 22.1339C24.3995 22.3683 24.0815 22.5 23.75 22.5Z" fill="white"/>
                                     </svg>
 
-                                    <p className="contacts_p">...</p>
+                                    <p className="contacts_p">traveldetails.sauravsvt@gmail.com</p>
                                 </div>
 
                                 <div className="footer_list">
@@ -71,7 +71,7 @@ function Footer(){
                                         </defs>
                                     </svg>
 
-                                    <p className="contacts_p">...</p>
+                                    <p className="contacts_p"> ShriSin Softwares Pvt. Ltd.</p>
                                 </div>
                             </div>
                         </div>
