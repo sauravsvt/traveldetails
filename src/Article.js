@@ -1,4 +1,5 @@
 import "./Article.css"
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Kathmandu from "./pic/Kathmandu.png"
 import Pokhara from "./pic/Pokhara.png"
 import Bhaktapur from "./pic/Bhaktapur.png"
@@ -19,12 +20,12 @@ function Article(){
                     <div className="line2"></div>
                 </div>
                 <div className="destinations-img">
-                    <img src={Kathmandu} alt="kathmandu" />
-                    <img src={Pokhara} alt="Pokhara" />
-                    <img src={Bhaktapur} alt="Bhaktapur" />
-                    <img src={Chitwan} alt="Chitwan" />
-                    <img src={Annapurna} alt="Annapurna" />
-                    <img src={Everest} alt="Everest" />
+                    <Link><img src={Kathmandu} alt="kathmandu" /></Link>
+                    <Link><img src={Pokhara} alt="Pokhara" /></Link>
+                    <Link><img src={Bhaktapur} alt="Bhaktapur" /></Link>
+                    <Link><img src={Chitwan} alt="Chitwan" /></Link>
+                    <Link><img src={Annapurna} alt="Annapurna" /></Link>
+                    <Link><img src={Everest} alt="Everest" /></Link>
                 </div>
             </div>   
         </article>
