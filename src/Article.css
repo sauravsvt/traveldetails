@@ -17,15 +17,15 @@
 
 .line1{
     margin: auto;
-    width: 6vw;
-    height: 5px;
+    width: 6vw !important;
+    height: 0.5vw !important;
     background: rgba(3, 71, 82, 0.8);
 }
 
 .line2{
     margin: auto;
-    width: 18vw;
-    height: 3px;
+    width: 18vw !important;
+    height: 0.3vw !important;
     background: rgba(0, 0, 0, 0.1);
 }
 
@@ -45,4 +45,39 @@
 }
 
 
+@media only screen and (max-width: 500px){
+    .article p{
+        font-size: 1.5rem;
+        margin: 10vw 0 2vw 0;
+    }
+
+    
+/* Two Line */
+
+.line{
+    margin: 0 0 10vw 0;
+}
+
+.line1{
+    width: 5rem !important;
+    height: 1vw !important;
+    border-radius: 10px;
+}
+
+.line2{
+    margin: auto;
+    width: 12rem !important;
+    height: 0.8vw !important;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Two Line */
+
+
+.destinations-img{
+    grid-template-columns: 1fr;
+    gap: 6vw;
+}
+}
 
