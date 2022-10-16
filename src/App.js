@@ -23,11 +23,11 @@ function App({onClick, onToggle}) {
         <img src={logo} alt="" />
 
         <ul id='dropDown' className={show?'active': "notActive"}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/blogs">Blogs</Link></li>
-        <li><Link to="/tripcategories">Trips Categories</Link></li>
-        <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/careers">Careers</Link></li>
+        <li onClick={toggle}><Link to="/">Home</Link></li>
+        <li onClick={toggle}><Link to="/blogs">Blogs</Link></li>
+        <li onClick={toggle}><Link to="/tripcategories">Trips Categories</Link></li>
+        <li onClick={toggle}><Link to="/about">About Us</Link></li>
+        <li onClick={toggle}><Link to="/careers">Careers</Link></li>
         </ul>
 
         <svg onClick={toggle} width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">

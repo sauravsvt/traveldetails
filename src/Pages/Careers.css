@@ -51,7 +51,6 @@
 
 .cv-input{
     position: relative;
-    z-index: -1;
 }
 
 label[for="file-input"]{
@@ -100,7 +99,8 @@ p[id='file-name']{
 .form-box button{
     color:white;
     padding: 0.6rem 2rem;
-    margin-left: 35%;
+    margin-left: 50%;
+    transform: translate(-50%);
     margin-top: 1rem;
     border-radius: 5px;
     border: none;
@@ -118,6 +118,9 @@ p[id='file-name']{
 }
 
 @media only screen and (max-width: 500px){
+    .form-box{    
+        margin-top: 18vw;
+    }
 
     .form-items{
         display: flex;

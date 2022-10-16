@@ -20,7 +20,7 @@ function Article(){
                     <div className="line2"></div>
                 </div>
                 <div className="destinations-img">
-                    <Link><img src={Kathmandu} alt="kathmandu" /></Link>
+                    <Link><img src={Kathmandu} alt="kathmandu" title="sdsdghygkhvmhv yhv y" /></Link>
                     <Link><img src={Pokhara} alt="Pokhara" /></Link>
                     <Link><img src={Bhaktapur} alt="Bhaktapur" /></Link>
                     <Link><img src={Chitwan} alt="Chitwan" /></Link>
