@@ -20,7 +20,7 @@ nav {
 nav ul{
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }  
 
 nav svg{
@@ -29,28 +29,19 @@ nav svg{
     display: none;
 }
 
-nav ul li:nth-child(3){
-    width: 14vw;
-}
-  
-
-nav ul li:nth-child(4){
-    width: 14vw;
-}
-
 nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1.4vw;
     font-weight: 500;
     transition: 0.3s;
+    padding: 4px 12px;
+    width: max-content;
 }
 
 nav a:hover {
     background-color: rgb(241, 250, 246);
-    font-size: 1.5vw;
     border-radius: 10px;
-    padding: 0 5px;
 
 }
 
@@ -284,7 +275,8 @@ main{
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 300;
-    font-size: 1.9vw;
+    font-size: 1.5vw;
+    text-align: center;
     padding: 1vw 1.1vw;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.8);

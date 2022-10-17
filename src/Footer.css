@@ -114,14 +114,16 @@
 
 .payment_icons{
     display: flex;
-    gap: 0.5vw;
+    gap: 0.8vw;
     align-items: center;
+    margin: 0.5vw 0 0 1vw;
 }
 
 .payment_icon{
-    width: 2vw;
+    max-width: 2vw;
     height: auto;
-    margin: 0.5vw 0 0 1vw;
+    display: flex;
+    align-items: center;
 }
 
 .follow{
@@ -135,7 +137,7 @@
 }
 
 .follow_icon{
-    width: 2vw;
+    max-width: 2vw;
     height: auto;
 }
 
@@ -147,9 +149,9 @@
     background: #1A3858;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 0.5vw;
+    align-items: center;
     gap: 0.5vw;
+    min-height: 2rem;
 }
 
 .copyright{
@@ -242,7 +244,7 @@
     }
     
     .payment_icon{
-        width: 8vw;
+        max-width: 20rem;
         height: auto;
         margin: 0.5vw 0 0 1vw;
     }
@@ -257,7 +259,7 @@
     }
     
     .follow_icon{
-        width: 6vw;
+        max-width: 20rem;
         height: auto;
     }
 
