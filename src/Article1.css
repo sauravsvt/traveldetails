@@ -42,6 +42,11 @@
     overflow-y: none;
     overflow-x: scroll;
     gap: 10vw;
+    scroll-snap-type: inline mandatory;
+}
+
+.trip-img > * {
+    scroll-snap-align: start;
 }
 
 .trip-img img{
@@ -52,6 +57,7 @@
 
 .slide-img{
     width: 20vw;
+    padding-bottom: 1rem;
 }
 
 .slide-img p{
