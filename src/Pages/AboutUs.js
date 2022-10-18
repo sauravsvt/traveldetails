@@ -1,5 +1,5 @@
 import './AboutUs.css'
-import pic from '../pic/Abhishek Shakya CV.PNG'
+import pic from '../pic/Annapurna.png'
 function AboutUs(){
     return(
         <>
