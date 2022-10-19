@@ -55,84 +55,6 @@ nav img{
     background: none;
 }
 
-@media screen and (max-width: 500px) {
-    nav{
-        grid-template-columns: 0.2fr auto 0.1fr;
-        grid-template-areas: "logo nav menu";
-        position: absolute;
-        padding: 0 3vw 0 1vw;
-        background-color: rgba(26, 56, 88);
-    }
-
-    nav img{
-        max-width: 8rem;
-    }
-    
-/*active*/
-    nav ul {
-        display: none;
-        
-    }
-
-    .active{
-        display: flex !important;
-        height: auto;
-        position: absolute;
-        top: 70px;
-        left:0;
-        right: 0;
-        width: 100%;
-        background-color: beige;
-        flex-direction: column;
-        background-color: rgb(26, 56, 88);;
-        gap: 1rem;
-        padding: 1rem 0;
-        border-radius: 0 0 20px 20px;
-        animation: topdown 0.5s;
-        z-index: 99;
-    }
-
-    .notActive{
-        background: none;
-    }
-
-        @keyframes topdown {
-            from{top:55px}
-            to{top:70px}
-        }
-
-        @keyframes downtop {
-            from{top:70px}
-            to{top:0px}
-        }
-   
-    nav ul li:nth-child(3){
-        width: 36vw;
-    }
-
-    nav ul li:nth-child(4){
-        width: 24vw;
-    }
-    nav a{
-        font-size: 1rem;
-    }
-
-    nav svg{
-        display: block;
-        grid-area: menu;
-        margin-top: 50%;
-        transform: translate(0, -50%);
-        cursor: pointer;
-    }
-
-    nav a:hover {
-        background-color: rgb(241, 250, 246);
-        font-size: 1.1rem;
-        border-radius: 10px;
-        padding: 0 5px;
-    }
-}
-
 header ul li a{
     color: white;
     font-family: Philosopher;
@@ -311,4 +233,83 @@ main{
     left: 0.7vw;
     height: 2vw;
     width: 1.5vw;
+}
+
+
+@media screen and (max-width: 500px) {
+    nav{
+        grid-template-columns: 0.2fr auto 0.1fr;
+        grid-template-areas: "logo nav menu";
+        position: absolute;
+        padding: 0 3vw 0 1vw;
+        background-color: rgb(42, 91, 143);
+    }
+
+    nav img{
+        max-width: 8rem;
+    }
+    
+/*active*/
+    nav ul {
+        display: none;
+        
+    }
+
+    .active{
+        display: flex !important;
+        height: auto;
+        position: absolute;
+        top: 70px;
+        left:0;
+        right: 0;
+        width: 100%;
+        background-color: beige;
+        flex-direction: column;
+        background-color: rgb(42, 91, 143);
+        gap: 1rem;
+        padding: 1rem 0;
+        border-radius: 0 0 20px 20px;
+        animation: topdown 0.5s;
+        z-index: 99;
+    }
+
+    .notActive{
+        background: none;
+    }
+
+        @keyframes topdown {
+            from{top:55px}
+            to{top:70px}
+        }
+
+        @keyframes downtop {
+            from{top:70px}
+            to{top:0px}
+        }
+   
+    nav ul li:nth-child(3){
+        width: 36vw;
+    }
+
+    nav ul li:nth-child(4){
+        width: 24vw;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+
+    nav svg{
+        display: block;
+        grid-area: menu;
+        margin-top: 50%;
+        transform: translate(0, -50%);
+        cursor: pointer;
+    }
+
+    nav a:hover {
+        background-color: rgb(241, 250, 246);
+        font-size: 1.1rem;
+        border-radius: 10px;
+        padding: 0 5px;
+    }
 }
