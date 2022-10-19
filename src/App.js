@@ -7,6 +7,7 @@ import logo from "./logo.png"
 import Building from './Pages/Building';
 import Careers from './Pages/Careers'
 import Footer from './Footer.js'
+import AboutUs from './Pages/AboutUs';
 function App({onClick, onToggle}) {
 
   const [show, setShow] = useState(false);
@@ -48,6 +49,7 @@ function App({onClick, onToggle}) {
          <Route  path='/' element={< Home />}></Route>
          <Route  path='*' element={< Building />}></Route>
          <Route  path='/careers' element={< Careers />} />
+         <Route  path='/about' element={< AboutUs />} />
         
          </Routes>
 
