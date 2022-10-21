@@ -175,13 +175,6 @@ function AboutUs(){
                             </div>
                         </div>
                     </div>
-                    
-                    <br/>
-
-                    <p>Connect with us:</p>
-                    <p>+977-9844187965</p>
-                    <p>traveldetails.saurav@gmail.com</p>
-
                 </div>
                     
 
