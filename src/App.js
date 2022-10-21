@@ -8,6 +8,7 @@ import Building from './Pages/Building';
 import Careers from './Pages/Careers'
 import Footer from './Footer.js'
 import AboutUs from './Pages/AboutUs';
+import TripCategory from './Pages/TripCategory';
 function App({onClick, onToggle}) {
 
   const [show, setShow] = useState(false);
@@ -50,6 +51,7 @@ function App({onClick, onToggle}) {
          <Route  path='*' element={< Building />}></Route>
          <Route  path='/careers' element={< Careers />} />
          <Route  path='/about' element={< AboutUs />} />
+         <Route  path='/tripcategories' element={< TripCategory />} />
         
          </Routes>
 
