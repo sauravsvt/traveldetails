@@ -4,7 +4,7 @@
 
 .contact-header{
     padding: 2rem;
-    background-color: rgba(15, 54, 95, 0.9);
+    background-image: linear-gradient(to right top, #2b60c4, #3e6dcb, #4f7bd2, #6088d9, #7096df, #6ba4e9, #69b2f1, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     display: grid;
     grid-template-columns: 50% auto;
 }
